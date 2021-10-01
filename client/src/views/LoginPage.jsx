@@ -61,16 +61,13 @@ export default function LoginPage() {
           >
             Sign In
           </a>
+          <h1 className="text-xl mr-0 font-md text-white">
+            Didn't have any account?{" "}
+            <a href="#" className="text-green-400 text-xl underline font-md">
+              Sign Up here
+            </a>
+          </h1>
         </form>
-        <h1 className="font-black ml-2 shadow-lg text-white">
-          Didn't have any account ?{" "}
-          <a
-            href="#"
-            className="text-base font-black mr-48 pt-6 text-green-400 text-right leading-normal underline mb-6"
-          >
-            Sign up here
-          </a>
-        </h1>
       </div>
     </div>
   );
