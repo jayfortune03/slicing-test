@@ -2,6 +2,7 @@ import "./App.css";
 import { Switch, Route } from "react-router-dom";
 import LoginPage from "./views/LoginPage";
 import HomePage from "./views/HomePage";
+import RegisterPage from "./views/RegisterPage";
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       </Route>
       <Route path="/login">
         <LoginPage />
+      </Route>
+      <Route pat="/register">
+        <RegisterPage />
       </Route>
     </Switch>
   );
