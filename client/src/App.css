@@ -1,7 +1,11 @@
 .login {
   text-align: center;
-  background-image: linear-gradient(rgba(40, 163, 75, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://media.istockphoto.com/photos/this-is-my-kinda-music-picture-id1064852106?b=1&k=20&m=1064852106&s=170667a&w=0&h=Vgx776b6GovbrdvoZdj680Kw4tz5FZJ6a6N_uVraP70=");
+  background-image: url("./assets/image\ 10.png");
   background-repeat: no-repeat, repeat;
   background-size: cover;
+  font-family: "DM Sans", sans-serif;
+}
+
+.signin-btn {
+  background-color: #0acf83;
 }
