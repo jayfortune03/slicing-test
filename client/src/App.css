@@ -1,0 +1,11 @@
+.login {
+  text-align: center;
+  background-image: url("./assets/image\ 10.png");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  font-family: "DM Sans", sans-serif;
+}
+
+.signin-btn {
+  background-color: #0acf83;
+}
