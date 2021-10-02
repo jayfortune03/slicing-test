@@ -1,0 +1,19 @@
+.login {
+  text-align: center;
+  background-image: url("./assets/image\ 10.png");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+
+.signin-btn {
+  background-color: #0acf83;
+}
+
+.hover\:grow {
+  transition: all 0.3s;
+  transform: scale(1);
+}
+
+.hover\:grow:hover {
+  transform: scale(1.02);
+}
