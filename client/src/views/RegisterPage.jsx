@@ -1,15 +1,18 @@
 import lock from "../assets/lock.png";
 import mail from "../assets/mail.png";
+import apple from "../assets/apple.png";
+import google from "../assets/google.png";
+import facebook from "../assets/facebook.png";
 
 export default function RegisterPage() {
   return (
     <div className="flex flex-col">
       <h1 className="text-6xl flex text-black font-bold mx-auto my-6">
-        Login Page
+        Register Page
       </h1>
       <div className="artboard phone-4 mx-auto my-auto login artboard-demo">
         <h1 className="font-bold text-5xl mb-4 mt text-white">Audio</h1>
-        <h1 className="font-regular text-md mb-48 flex text-white">
+        <h1 className="font-medium text-md mb-32 flex text-white">
           It's modular and designed to last
         </h1>
         <form action="" className="flex flex-col">
@@ -38,21 +41,31 @@ export default function RegisterPage() {
             />
           </div>
           <a
-            href="#"
-            className="text-base font-semibold text-white mb-4 text-center leading-normal hover:underline"
-          >
-            Forgot Password
-          </a>
-          <a
             href="/"
-            className="signin-btn font-bold py-4 text-center px-4 text-white rounded-xl leading-tight mt-4 mb-6"
+            className="signin-btn font-bold py-4 text-center px-4 text-white rounded-xl leading-tight mt-4 mb-12"
           >
-            Sign In
+            Sign Up
           </a>
+          <div className="flex">
+            <div className="grid grid-cols-3 mx-auto gap-5 mb-6">
+              <a href="#" className="border rounded-xl bg-white p-4 mx-auto">
+                <img src={apple} />
+              </a>
+              <a
+                href="#"
+                className="border rounded-xl bg-white p-4 px-5 mx-auto"
+              >
+                <img src={facebook} />
+              </a>
+              <a href="#" className="border rounded-xl bg-white p-4 mx-auto">
+                <img src={google} />
+              </a>
+            </div>
+          </div>
           <h1 className="text-white">
-            Didn't have any account?{" "}
+            If you have an account?{" "}
             <a href="#" className="text-green-400 underline">
-              Sign Up here
+              Sign In here
             </a>
           </h1>
         </form>

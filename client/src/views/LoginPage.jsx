@@ -9,7 +9,7 @@ export default function LoginPage() {
       </h1>
       <div className="artboard phone-4 mx-auto my-auto login artboard-demo">
         <h1 className="font-bold text-5xl mb-4 mt text-white">Audio</h1>
-        <h1 className="font-regular text-md mb-48 flex text-white">
+        <h1 className="font-medium text-md mb-48 flex text-white">
           It's modular and designed to last
         </h1>
         <form action="" className="flex flex-col">
