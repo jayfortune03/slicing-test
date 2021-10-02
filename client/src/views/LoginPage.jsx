@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import lock from "../assets/lock.png";
 import mail from "../assets/mail.png";
 
@@ -51,9 +53,9 @@ export default function LoginPage() {
           </a>
           <h1 className="text-white">
             Didn't have any account?{" "}
-            <a href="#" className="text-green-400 underline">
+            <Link to="/register" href="#" className="text-green-400 underline">
               Sign Up here
-            </a>
+            </Link>
           </h1>
         </form>
       </div>

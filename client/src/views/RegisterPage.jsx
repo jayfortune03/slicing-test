@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import lock from "../assets/lock.png";
 import mail from "../assets/mail.png";
 import apple from "../assets/apple.png";
@@ -64,9 +66,9 @@ export default function RegisterPage() {
           </div>
           <h1 className="text-white">
             If you have an account?{" "}
-            <a href="#" className="text-green-400 underline">
+            <Link to="/login" href="#" className="text-green-400 underline">
               Sign In here
-            </a>
+            </Link>
           </h1>
         </form>
       </div>

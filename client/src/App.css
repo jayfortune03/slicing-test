@@ -8,3 +8,12 @@
 .signin-btn {
   background-color: #0acf83;
 }
+
+.hover\:grow {
+  transition: all 0.3s;
+  transform: scale(1);
+}
+
+.hover\:grow:hover {
+  transform: scale(1.02);
+}
